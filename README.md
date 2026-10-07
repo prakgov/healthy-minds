@@ -5,9 +5,11 @@ The platform is designed as a proof-of-concept health technology system demonstr
 
 - [System Architecture](/docs/ARCHITECTURE.md)
 
-## Live Demo 
+## Project Links
 
-- Visit [Healthy Minds](https://healthy-minds-1.onrender.com)
+- Live Demo: [Healthy Minds](https://prakgov.github.io/healthy-minds/)
+- API Documentation: [Swagger UI](https://healthy-minds-backend.onrender.com/docs) | [ReDoc](https://healthy-minds-backend.onrender.com/redoc)
+- Team behind Healthy Minds: [Evgeniia, Musa, Luisa, Aziz, Edwin and Myself](https://www.linkedin.com/feed/update/urn:li:activity:7470731738856513536/)
 
 ## Features
 
@@ -108,16 +110,16 @@ ReDoc: https://healthy-minds-au98.onrender.com/redoc
 	```
 
 - Activate the virtual environment:
-	- Windows (PowerShell): `venv\Scripts\Activate.ps1`
-	- macOS/Linux: `source venv/bin/activate`
+	- Windows (PowerShell): `.venv\Scripts\Activate.ps1`
+	- macOS/Linux: `source .venv/bin/activate`
 
 	```bash
 	pip install -r requirements.txt
 	uvicorn app.main:app --reload
 	```
-
-- Backend API: http://127.0.0.1:8000
-- Swagger UI: http://127.0.0.1:8000/docs
+- Local development URLs:
+	- Backend API: http://127.0.0.1:8000
+	- Swagger UI: http://127.0.0.1:8000/docs
 
 4. Start the frontend (Vite + React):
 
