@@ -76,13 +76,6 @@ The system uses JWT-based authentication. Protected API routes require a valid B
 * patients cannot access professional dashboards
 * professionals cannot access patients outside their assigned list
 
-## API Documentation
-
-Interactive API documentation is automatically generated using FastAPI and OpenAPI documentation by Swagger UI.	
-
-Swagger UI: https://healthy-minds-au98.onrender.com/docs
-
-ReDoc: https://healthy-minds-au98.onrender.com/redoc
 
 ## Database Structure
 - Main database entities:
