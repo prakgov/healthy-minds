@@ -92,14 +92,14 @@ The system uses JWT-based authentication. Protected API routes require a valid B
 1. Clone the repository and open the project root.
 
 2. Configure environment variables:
-	- Frontend: copy `frontend/.env.example` to `frontend/.env`
+	- Frontend: no `.env` file is needed locally (the API URL defaults to http://127.0.0.1:8000). Set `VITE_API_URL` in `frontend/.env` only to point at a different backend.
 	- Backend: copy `backend/.env.example` to `backend/.env`
 
 3. Start the backend (FastAPI):
 
 	```bash
 	cd backend
-	python -m venv venv
+	python -m venv .venv
 	```
 
 - Activate the virtual environment:
@@ -122,7 +122,7 @@ The system uses JWT-based authentication. Protected API routes require a valid B
 	npm run dev
 	```
 
-	- Frontend app: http://localhost:5173
+	- Frontend app: http://localhost:8090
 
 5. (Optional) Run tests:
 
